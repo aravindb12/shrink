@@ -44,9 +44,6 @@ export default function Home() {
     setStatus('error');
   }
 
-  const setMessageContent = () =>{
-    return 
-  }
   return (
     <Layout>
       <Head>
@@ -92,7 +89,7 @@ export default function Home() {
               status == 'success'
                 ? <Paragraph className={styles.linkContent} copyable>{message}</Paragraph>
                 : message
-            } type={status as 'error' | 'succes'} />)}
+            } type={status as 'error' | 'success'} />)}
  
         </div>
       </Content>
