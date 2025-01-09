@@ -4,6 +4,10 @@
  font-weight: bold;
 }
 
+.br1{
+ display: none;
+}
+
 .content {
   display: flex;
   align-items:  center;
